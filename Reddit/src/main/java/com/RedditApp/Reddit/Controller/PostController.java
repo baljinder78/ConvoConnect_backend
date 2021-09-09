@@ -19,7 +19,7 @@ import java.util.List;
 import static java.time.LocalTime.now;
 
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/")
 public class PostController {
